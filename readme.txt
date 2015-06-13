@@ -1,31 +1,34 @@
-=== Replace Google CDN ===
+=== Replace China CDN ===
 Contributors: Frank,H.L.Lai
-Tags: google fonts, google apis, cdn
+Tags: cdn, china, google, google fonts, google apis, google maps, gravatar
 Requires at least: 3.5
-Tested up to: 4.1.1
-Stable tag: 1.0
+Tested up to: 4.2.2
+Stable tag: 1.1
 License: GNU GPLv2
 
-Wordpress plugin to replace Google libraries to USTC (China) CDN
+Wordpress plugin to replace various sources by China's CDN, including Google libraries, gravatar, etc.
 
 == Description ==
 
-[Plugin homepage](https://github.com/puxos/replace-google-cdn) | [Plugin author](http://www.puxos.com/) 
+[Plugin homepage](https://github.com/puxos/replace-china-cdn) | [Plugin author](http://www.puxos.com/) 
 
-A common problem for websites in China is loading Google Apis, Fonts, etc. slow down the overall speed. This plugin is aimed to replace the original Google's (googleapis.com) to USTC (China) CDN.
+A common problem for websites in China is loading Google Apis, Fonts, Gravatar, etc. therefore slow down the overall speed. This plugin is aimed to replace the original sources to China's CDN. 
 
-[Project GitHub](https://github.com/puxos/replace-google-cdn).
+Google's (googleapis.com) replaced by USTC (China) CDN.
+Gravatar replaced by Duoshuo CDN
+
+[Project GitHub](https://github.com/puxos/replace-china-cdn).
 
 == Installation ==
 
 = From your WordPress dashboard =
 
 1. Visit 'Plugins > Add New'
-2. Search for 'replace-google-cdn'
-3. Activate 'Replace Google CDN' from your Plugins page.
+2. Search for 'replace-china-cdn'
+3. Activate 'Replace China CDN' from your Plugins page.
 
 = From WordPress.org =
 
-1. Download Replace-Google-CDN.
-2. Upload the 'Replace-Google-CDN' directory to your '/wp-content/plugins/' directory, using your favorite method (ftp, sftp, scp, etc...)
-3. Activate Replace-Google-CDN from your Plugins page.
+1. Download Replace-China-CDN.
+2. Upload the 'Replace-China-CDN' directory to your '/wp-content/plugins/' directory, using your favorite method (ftp, sftp, scp, etc...)
+3. Activate Replace-China-CDN from your Plugins page.
