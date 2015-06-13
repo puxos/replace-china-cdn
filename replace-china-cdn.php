@@ -22,10 +22,9 @@ class Replace_China_Cdn
     /**
      * init Hook
      */
-    public function __construct()
-    {
-        add_filter('style_loader_tag', array($this, 'cdnUSTC'), 1000, 1);
-        add_filter('get_avatar', 'duoshuo_avatar', 1001, 3);
+    public function __construct() {
+        add_filter('style_loader_tag', array($this, 'replace_google_ustc'), 1000, 1);
+        add_filter('get_avatar', array($this, 'replace_gravatar_duoshuo'), 1001, 1);
     }
 
 
@@ -35,8 +34,7 @@ class Replace_China_Cdn
      * @param $text
      * @return mixed
      */
-    public function cdnUSTC($text)
-    {
+    public function replace_google_ustc($text) {
         return str_replace('googleapis.com', 'lug.ustc.edu.cn', $text);
     }
 
@@ -47,7 +45,7 @@ class Replace_China_Cdn
      * @param $text
      * @return mixed
      */
-    public function duoshuo_avatar($text) {
+    public function replace_gravatar_duoshuo($text) {
         return str_replace(array("www.gravatar.com","0.gravatar.com","1.gravatar.com","2.gravatar.com"),"gravatar.duoshuo.com", $text);
     }
 }

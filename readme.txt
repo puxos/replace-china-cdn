@@ -1,21 +1,18 @@
 === Replace China CDN ===
 Contributors: Frank,H.L.Lai
-Tags: cdn, china, google, google fonts, google apis, google maps, gravatar
+Tags: cdn, china, google, google fonts, google apis, gravatar
 Requires at least: 3.5
 Tested up to: 4.2.2
 Stable tag: 1.1
 License: GNU GPLv2
 
-Wordpress plugin to replace various sources by China's CDN, including Google libraries, gravatar, etc.
+Wordpress plugin to replace various sources by China's CDN, including Google libraries, Google maps, gravatar, etc.
 
 == Description ==
 
 [Plugin homepage](https://github.com/puxos/replace-china-cdn) | [Plugin author](http://www.puxos.com/) 
 
-A common problem for websites in China is loading Google Apis, Fonts, Gravatar, etc. therefore slow down the overall speed. This plugin is aimed to replace the original sources to China's CDN. 
-
-Google's (googleapis.com) replaced by USTC (China) CDN.
-Gravatar replaced by Duoshuo CDN
+A common problem for websites in China is loading Google Apis, Fonts, Gravatar, etc. therefore slow down the overall speed. This plugin is aimed to replace the original sources to China's CDN. Google's (googleapis.com) replaced by USTC (China) CDN. Gravatar replaced by Duoshuo CDN
 
 [Project GitHub](https://github.com/puxos/replace-china-cdn).
 
